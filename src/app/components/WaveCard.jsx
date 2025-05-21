@@ -83,7 +83,7 @@ export const ExpandableInfoCard = ({
                   <img
                     src={img}
                     alt={title}
-                    className="object-contain h-28 w-28 ml-2"
+                    className="object-contain h-28 w-28 ml-2  hover:scale-105 ease-in-out duration-300"
                     style={{ transform: `scale(${scale})`, transformOrigin: "center center" }}
                     loading="lazy"
                   />
@@ -124,7 +124,7 @@ export const ExpandableInfoCard = ({
                 <img 
                   src={expandedImage1 || img} 
                   alt="Detailed View" 
-                  className={`object-contain max-h-96 ml-${marginL} w-full`}
+                  className={`object-contain max-h-96 ml-${marginL} w-full hover:scale-105 ease-in-out duration-300`}
                   loading="lazy"
                 />
               </div>
@@ -135,7 +135,7 @@ export const ExpandableInfoCard = ({
                   <img 
                     src={expandedImage2} 
                     alt="Additional View 1" 
-                    className={`object-contain max-h-${imgH1} w-full`}
+                    className={`object-contain max-h-${imgH1} w-full hover:scale-105 ease-in-out duration-300`}
                     loading="lazy"
                     style={{ maxHeight: `${imgH1}rem` }}
                   />
@@ -144,7 +144,7 @@ export const ExpandableInfoCard = ({
                   <img 
                     src={expandedImage3} 
                     alt="Additional View 2" 
-                    className={`object-contain max-h-${imgH2} w-full`}
+                    className={`object-contain max-h-${imgH2} w-full hover:scale-105 ease-in-out duration-300`}
                     loading="lazy"
                     style={{ maxHeight: `${imgH1}rem` }}
                   />

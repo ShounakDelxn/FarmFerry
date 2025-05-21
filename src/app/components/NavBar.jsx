@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full py-2">
+    <nav id="nav" className="w-full py-2">
       <div className="bg-white shadow-md rounded-xl mx-8 px-6 h-16 flex items-center justify-between font-serif">
         {/* Left: Logo */}
         <div className="flex items-center">

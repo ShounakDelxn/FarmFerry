@@ -1,6 +1,7 @@
 import AboutSection from "./components/AboutSection";
 import Banner from "./components/Banner";
 import WhyChooseUs from "./components/Choose";
+import { Footer } from "./components/Footer";
 import Navbar from "./components/NavBar";
 import { Products } from "./components/Products";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner />
       <Products />
       <AboutSection />
+      <Footer />
     </div>
   );
 }
